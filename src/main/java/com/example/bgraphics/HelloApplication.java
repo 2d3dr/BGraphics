@@ -22,13 +22,13 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-       createWindow(500,500,true,true);
+        createWindow(500, 500, true, true);
 
-       BProcessor processor = new BProcessor();
+        BProcessor processor = new BProcessor();
 
-       Canvas myCanvas = createCanvas(0,0,true,true,Color.WHITE);
-       Vector myVector = new Vector(200,200,10,Color.BLACK);
-       Vector newVector = new Vector(500,500,10,Color.BLACK);
+        Canvas myCanvas = createCanvas(0, 0, true, true, Color.WHITE);
+        Vector myVector = new Vector(200, 200, 10, Color.BLACK);
+        Vector newVector = new Vector(500, 500, 10, Color.BLACK);
 
        BProcessor.connect(myCanvas,myVector);
 
