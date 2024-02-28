@@ -28,8 +28,10 @@ public class HelloApplication extends Application {
 
        Canvas myCanvas = createCanvas(0,0,true,true,Color.WHITE);
        Vector myVector = new Vector(200,200,10,Color.BLACK);
+       Vector newVector = new Vector(500,500,10,Color.BLACK);
 
        BProcessor.connect(myCanvas,myVector);
+
     }
 
 
